@@ -6,7 +6,7 @@ Este é um projeto desenvolvido para a disciplina de **Programação Orientada a
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Java 17**
+- **Java 21**
 - **JUnit 5** – Testes automatizados
 - **Lombok** – Redução de boilerplate no código
 - **DAO (Data Access Object)** – Padrão para persistência de dados (simulada em memória)
