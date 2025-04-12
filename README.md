@@ -1,4 +1,4 @@
-# 🛡️ Projeto Seguradora - POO | 3º Período | Cesar School
+# 🛡️ Projeto Seguradora
 
 Este é um projeto desenvolvido para a disciplina de **Programação Orientada a Objetos (POO)** no curso de **Ciência da Computação - 3º período** da **Cesar School**. O sistema simula funcionalidades básicas de uma **seguradora**, utilizando boas práticas de orientação a objetos, com ênfase em modularidade, testes automatizados e uso de bibliotecas modernas como Lombok.
 
