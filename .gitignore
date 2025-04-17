@@ -10,6 +10,7 @@ bin/
 .settings
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+*.class
 
 ### NetBeans ###
 /nbproject/private/
