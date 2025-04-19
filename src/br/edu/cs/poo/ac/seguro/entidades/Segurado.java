@@ -7,6 +7,8 @@ import java.time.Period;
 
 public class Segurado implements Serializable{
 
+	private static final long serialVersionUID = 1L;
+	
 	private String nome;
 	private Endereco endereco;
 	private LocalDate dataCriacao;

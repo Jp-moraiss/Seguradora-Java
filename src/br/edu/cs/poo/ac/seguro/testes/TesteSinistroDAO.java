@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import br.edu.cs.poo.ac.seguro.daos.SinistroDAO;
-import br.edu.cs.poo.ac.seguro.entidades.Apolice;
 import br.edu.cs.poo.ac.seguro.entidades.Sinistro;
 import br.edu.cs.poo.ac.seguro.entidades.TipoSinistro;
 import br.edu.cs.poo.ac.seguro.entidades.Veiculo;
@@ -15,7 +14,7 @@ public class TesteSinistroDAO extends TesteDAO{
 
 	private SinistroDAO dao = new SinistroDAO();
 
-	protected Class getClasse() {
+	protected Class<?> getClasse() {
 		return Sinistro.class;
 	}
 	

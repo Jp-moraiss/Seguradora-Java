@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import br.edu.cs.poo.ac.seguro.daos.SeguradoPessoaDAO;
 import br.edu.cs.poo.ac.seguro.entidades.SeguradoPessoa;
 
+@SuppressWarnings("unused")
 public class SeguradoPessoaMediator {
 
 	private SeguradoMediator seguradoMediator = SeguradoMediator.getInstancia();

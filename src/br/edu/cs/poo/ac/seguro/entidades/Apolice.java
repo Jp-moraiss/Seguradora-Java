@@ -10,7 +10,9 @@ import java.math.BigDecimal;
 @RequiredArgsConstructor
 public class Apolice implements Serializable{
 
-    private String numero;
+	private static final long serialVersionUID = 1L;
+	
+	private String numero;
     @NonNull private Veiculo veiculo;
     @NonNull private BigDecimal valorFranquia;
     @NonNull private BigDecimal valorPremio;
