@@ -12,7 +12,7 @@ import br.edu.cs.poo.ac.seguro.entidades.Veiculo;
 public class TesteApoliceDAO extends TesteDAO {
 	private ApoliceDAO dao = new ApoliceDAO();
 
-	protected Class<Apolice> getClasse() {
+	protected Class<?> getClasse() {
 		return Apolice.class;
 	}
 
