@@ -7,6 +7,7 @@ public class SeguradoEmpresaMediator {
 
     private SeguradoEmpresaDAO dao = new SeguradoEmpresaDAO();
     private static SeguradoEmpresaMediator instancia = new SeguradoEmpresaMediator();
+    private static SeguradoEmpresa seguradoEmpresa;
 
     private SeguradoEmpresaMediator() {}
 
@@ -76,7 +77,7 @@ public class SeguradoEmpresaMediator {
         	return "Nome deve ser informado";
         if (seg.getEndereco() == null) 
         	return "Endereço deve ser informado";
-        if (seg.getDataCriacao() == null) 
+        if (seg.getDataAbertura() == null) 
         	return "Data da abertura deve ser informada";
 
         String msg = validarCnpj(seg.getCnpj());
