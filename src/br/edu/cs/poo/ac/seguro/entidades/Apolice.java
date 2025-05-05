@@ -1,21 +1,28 @@
 package br.edu.cs.poo.ac.seguro.entidades;
 
-import lombok.*;
-
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.time.LocalDate;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 @Getter
 @Setter
 @RequiredArgsConstructor
+@AllArgsConstructor
 public class Apolice implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
-	private String numero;
-    @NonNull private Veiculo veiculo;
-    @NonNull private BigDecimal valorFranquia;
-    @NonNull private BigDecimal valorPremio;
-    @NonNull private BigDecimal valorMaximoSegurado;
+    private String numero;
+    private Veiculo veiculo;
+    private BigDecimal valorFranquia;
+    private BigDecimal valorPremio;
+    private BigDecimal valorMaximoSegurado;
+    private LocalDate dataInicioVigencia;
 
 }
